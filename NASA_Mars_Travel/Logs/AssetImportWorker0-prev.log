@@ -1,337 +1,461 @@
 Using pre-set license
-Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 18362.418; Version 1903; 64bit' Language: 'en' Physical Memory: 8146 MB
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.418; Version 1903; 64bit' Language: 'en' Physical Memory: 8073 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-G:/S_Work/NASA_Marathon/NASA_Mars_Travel
+D:/S_Work/NASA_Hackanthon/NASA_Mars_Travel
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51884
-Successfully changed project path to: G:/S_Work/NASA_Marathon/NASA_Mars_Travel
-G:/S_Work/NASA_Marathon/NASA_Mars_Travel
+50662
+Successfully changed project path to: D:/S_Work/NASA_Hackanthon/NASA_Mars_Travel
+D:/S_Work/NASA_Hackanthon/NASA_Mars_Travel
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/S_Work/NASA_Marathon/NASA_Mars_Travel/Assets
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/S_Work/NASA_Hackanthon/NASA_Mars_Travel/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
     Vendor:   
     VRAM:     2007 MB
-    Driver:   25.21.14.1935
+    Driver:   25.21.14.2678
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006686 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006033 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.992 seconds
+- Completed reload, in  2.875 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001097 seconds.
+Registered in 0.000655 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
+- Completed reload, in  1.210 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.5 MB.
-System memory in use after: 56.6 MB.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
-Total: 2.130600 ms (FindLiveObjects: 0.142000 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.844200 ms  DeleteObjects: 0.092900 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 2.270400 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.053500 ms MarkObjects: 1.959500 ms  DeleteObjects: 0.062600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.045840 seconds
-  Import took 0.049083 seconds .
+  path: Assets/3D Models/Nasa_Models/Perseverance/perseverance_thumb.png
+  artifactKey: Guid(7c9f3f365798c444f83bae9af685efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/perseverance_thumb.png using Guid(7c9f3f365798c444f83bae9af685efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c774e5150eea08f1671224372a386c44') in 0.305106 seconds
+  Import took 0.307646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004564 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/ingenuity_thumb.png
+  artifactKey: Guid(6f0843d6acda458458621871d62bed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/ingenuity_thumb.png using Guid(6f0843d6acda458458621871d62bed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2472e141c78c62ed48663a3c439f8c') in 0.010315 seconds
+  Import took 0.012910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend
+  artifactKey: Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend using Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71aab412675bf7d599f566d4eb0e26b8') in 2.445096 seconds
+  Import took 2.493207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.410788 seconds.
+  path: Assets/3D Models/Nasa_Models/pahrump/pahrump_print_1x.obj
+  artifactKey: Guid(4f34d4e4e4dd4e5498374cbc8a612ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/pahrump/pahrump_print_1x.obj using Guid(4f34d4e4e4dd4e5498374cbc8a612ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df523db805530cf82618a560dcb4ae7') in 0.124286 seconds
+  Import took 0.127349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3D Models/Nasa_Models/pahrump/pahrump_print_2x.obj
+  artifactKey: Guid(27eb72d88920e3745acb55bcef2c465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/pahrump/pahrump_print_2x.obj using Guid(27eb72d88920e3745acb55bcef2c465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561238702a1a9c07997d55ca23da0d73') in 0.055866 seconds
+  Import took 0.061355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.501789 seconds.
+  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch.stl
+  artifactKey: Guid(20569cb0aa290e74e82a02adfc4f5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch.stl using Guid(20569cb0aa290e74e82a02adfc4f5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5070bdfee83c6ad2095f23bee0b3bd') in 0.190859 seconds
+  Import took 0.193537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.434939 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx
+  artifactKey: Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx using Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c99c1883d54fd9a4f8154862aae9395') in 0.938950 seconds
+  Import took 0.945630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.080275 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend
+  artifactKey: Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend using Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f430439a76f1c170e64e16eedf457a4') in 0.133988 seconds
+  Import took 0.138303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx
+  artifactKey: Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx using Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dd8d0e0c47e06838368f4525ef0b34') in 0.144481 seconds
+  Import took 0.147151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.282802 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures
+  artifactKey: Guid(b3fa16a018dd9484e8166d8d62d370f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures using Guid(b3fa16a018dd9484e8166d8d62d370f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35a065c1b25025369124c98d5235f05') in 0.004089 seconds
+  Import took 0.007666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077648 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_gold_ramp.png
+  artifactKey: Guid(50a11e1b7f3f11c4a8029a04c9246951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_gold_ramp.png using Guid(50a11e1b7f3f11c4a8029a04c9246951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6733555d5c38d780c110d6cfbf705473') in 0.037114 seconds
+  Import took 0.058274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_array_spec2.png
+  artifactKey: Guid(ba2cd3ee4755b6c4ebb40176a2e3b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_array_spec2.png using Guid(ba2cd3ee4755b6c4ebb40176a2e3b7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c8ae6ad20fd9d643a1be4d19673ccd') in 0.047535 seconds
+  Import took 0.052219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_capsule_spec.png
+  artifactKey: Guid(1baa3e8a93a07a9438f462c34e7cf3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_capsule_spec.png using Guid(1baa3e8a93a07a9438f462c34e7cf3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92218616bed8c7027ea80cddbeb9b850') in 0.141746 seconds
+  Import took 0.145368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_newcapsule_normal.jpg
+  artifactKey: Guid(8b7a547ed39ca614d82495f40f32b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_newcapsule_normal.jpg using Guid(8b7a547ed39ca614d82495f40f32b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b084e97c4806d5e8a8f7f067f586b84') in 0.017795 seconds
+  Import took 0.021306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_n.png
+  artifactKey: Guid(6049f2cd83162ef478903595c2796b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_n.png using Guid(6049f2cd83162ef478903595c2796b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c994b0aefb136244d0b26149d598d') in 0.055434 seconds
+  Import took 0.059207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_4_bolt_circle_hatch_AO.png
+  artifactKey: Guid(d83375dab0467514e80e644ddd68e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_4_bolt_circle_hatch_AO.png using Guid(d83375dab0467514e80e644ddd68e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf8f3e418763324d70dba078f945a98') in 0.598705 seconds
+  Import took 0.601924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_diff.png
+  artifactKey: Guid(6eac0e0ebaeb5694098d1ca12d8f1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_diff.png using Guid(6eac0e0ebaeb5694098d1ca12d8f1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2844ce39a5035f104c73a83ca7a875d') in 0.010730 seconds
+  Import took 0.064600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_square_hatch_NORM.png
+  artifactKey: Guid(787bb5cebba3688488b251b48c9f2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_square_hatch_NORM.png using Guid(787bb5cebba3688488b251b48c9f2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6a4aec66dd8ae73aec39a2fe2ce3df') in 0.046103 seconds
+  Import took 0.084178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_array_diffuse.jpg
+  artifactKey: Guid(67bc2dd16f29aed45a5518f5bc76d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_array_diffuse.jpg using Guid(67bc2dd16f29aed45a5518f5bc76d92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621772504a6cd30f9728324c3c170564') in 0.011231 seconds
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_square_hatch_AO.png
+  artifactKey: Guid(86ce378eda90c024b96b4102cfb0f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_square_hatch_AO.png using Guid(86ce378eda90c024b96b4102cfb0f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a31276c14968d83010b2c0d63a0e9b6') in 0.050229 seconds
+  Import took 0.071248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_rivet_wall_normals.png
+  artifactKey: Guid(1b903564678a36144bba41b4c31b7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_rivet_wall_normals.png using Guid(1b903564678a36144bba41b4c31b7d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a7fe77f0b67ca6a9fdd7c26f5edb72') in 0.112776 seconds
+  Import took 0.115170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_solar_cells.001.png
+  artifactKey: Guid(a81d6c86bdb2ddf4b971cb2bc63af0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_solar_cells.001.png using Guid(a81d6c86bdb2ddf4b971cb2bc63af0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e3694deb521ab21f1821a760aac033') in 0.077064 seconds
+  Import took 0.079317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_6_bolt_circle_hatch_NORM.png
+  artifactKey: Guid(252209556e49f954c893c18e02c06203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_6_bolt_circle_hatch_NORM.png using Guid(252209556e49f954c893c18e02c06203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b36d3a6eb53307138dc305f9834a8d6') in 0.066987 seconds
+  Import took 0.086599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_silver_ramp.png
+  artifactKey: Guid(fc7ad48083624b54c9b9ebef2b0582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_silver_ramp.png using Guid(fc7ad48083624b54c9b9ebef2b0582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b056b74c2e83c9f55dca8a2e336556') in 0.042864 seconds
+  Import took 0.045448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_newcapsule_diffuse.jpg
+  artifactKey: Guid(77804512788efb24cbbd28cdc24b85eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_newcapsule_diffuse.jpg using Guid(77804512788efb24cbbd28cdc24b85eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f519e369673b3de7ba7b295e170c8b4f') in 0.135172 seconds
+  Import took 0.137805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_silver_ramp.png
+  artifactKey: Guid(fc7ad48083624b54c9b9ebef2b0582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/foil_silver_ramp.png using Guid(fc7ad48083624b54c9b9ebef2b0582da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b056b74c2e83c9f55dca8a2e336556') in 0.009534 seconds
+  Import took 0.012297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_6_bolt_circle_hatch_AO.png
+  artifactKey: Guid(5be26ed25ea57564f93279debb5831cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/textures/insight_6_bolt_circle_hatch_AO.png using Guid(5be26ed25ea57564f93279debb5831cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203c4f2480c1ec32c3655afeeb7614a') in 0.037185 seconds
+  Import took 0.041732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.643810 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx
+  artifactKey: Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx using Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7ecd7579a1cf1d025f6cfbd2955f7b') in 0.115022 seconds
+  Import took 0.149155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.188483 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend1
+  artifactKey: Guid(5a1ad5ba4947e6143a4ccf965517d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend1 using Guid(5a1ad5ba4947e6143a4ccf965517d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbea800992990823ddf9f213fa8bac1e') in 0.006398 seconds
+  Import took 0.009547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1061.471969 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend
+  artifactKey: Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend using Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f385f45dc9c3699ed4a91ec7d623c508') in 0.138221 seconds
+  Import took 0.141709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx
+  artifactKey: Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx using Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8bf889eaa1a2d665aef4cc26b2dec6') in 0.123339 seconds
+  Import took 0.149161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.298620 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx
+  artifactKey: Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.fbx using Guid(646462987d312784db2652ceba09e11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b048caff95244f5ae34959c16961246') in 0.117536 seconds
+  Import took 0.121023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.629504 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials
+  artifactKey: Guid(6fea4f4a80b22414ab5841b51e127371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials using Guid(6fea4f4a80b22414ab5841b51e127371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44656b2fa430e666e4221ea94c96a4e0') in 0.003649 seconds
+  Import took 0.006431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049668 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/_circle_decal.mat
+  artifactKey: Guid(3f657c84279dc0b4c938fb304683c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/_circle_decal.mat using Guid(3f657c84279dc0b4c938fb304683c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74764458bdf9b62da872b0d37f9f460') in 0.055710 seconds
+  Import took 0.076406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/dark.mat
+  artifactKey: Guid(79af9c0976712434b94e84172c915add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/dark.mat using Guid(79af9c0976712434b94e84172c915add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123384e68ff25be122b2ad3e32ff9f07') in 0.011011 seconds
+  Import took 0.013223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/capsule_final.mat
+  artifactKey: Guid(7afcaa6c23361944486595b4a0d2fbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/capsule_final.mat using Guid(7afcaa6c23361944486595b4a0d2fbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44271df8d1c24f1b036c28c69c7ff95') in 0.012176 seconds
+  Import took 0.033870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/foil_silver.mat
+  artifactKey: Guid(8199c593e2835b54aa5caaaae03a47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/foil_silver.mat using Guid(8199c593e2835b54aa5caaaae03a47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e0cdc474432e895ffec6fe68b93a5d') in 0.012471 seconds
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/capsule_new.mat
+  artifactKey: Guid(928b27f9feadabc4ba571345a86e33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/capsule_new.mat using Guid(928b27f9feadabc4ba571345a86e33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818bebd837d55318f5b46a10c51eef70') in 0.012809 seconds
+  Import took 0.019526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/clear_tubing.mat
+  artifactKey: Guid(088537efceaeebd429b81ab546e894d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/clear_tubing.mat using Guid(088537efceaeebd429b81ab546e894d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50cd460b45b195b219b21d5d52b5110') in 0.012982 seconds
+  Import took 0.015724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/black_wire.mat
+  artifactKey: Guid(0263da5588fdf4e4fab3946be4d39714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/black_wire.mat using Guid(0263da5588fdf4e4fab3946be4d39714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c943914046c2493a993b263a138bc4b') in 0.013713 seconds
+  Import took 0.016310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/_circle_decal2.mat
+  artifactKey: Guid(0d8c07f5366b1164d9313e27548c7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/_circle_decal2.mat using Guid(0d8c07f5366b1164d9313e27548c7690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9769970636243b7ae6c9eec9a3bae7ea') in 0.012087 seconds
+  Import took 0.014713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/solar_array.mat
+  artifactKey: Guid(01b6be8bf01fd104a9287580182c5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/solar_array.mat using Guid(01b6be8bf01fd104a9287580182c5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d206e347e18ac16601b1d92c235725') in 0.011732 seconds
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/square_hatch_decal.mat
+  artifactKey: Guid(e67e1698a6800854b99224b7c1c5bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/materials/square_hatch_decal.mat using Guid(e67e1698a6800854b99224b7c1c5bf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1289daee8c0c2075c15ceb6b2b4626b') in 0.012540 seconds
+  Import took 0.015588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 577.687535 seconds.
+  path: Assets/Preafbs
+  artifactKey: Guid(acf448efdb2fe814ba7475e7a5d8721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Preafbs using Guid(acf448efdb2fe814ba7475e7a5d8721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6a277f58155e04bef6ffd8b2498aa6') in 0.003278 seconds
+  Import took 0.018054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.645406 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(acf448efdb2fe814ba7475e7a5d8721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(acf448efdb2fe814ba7475e7a5d8721e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e316a8a80c1441c91dd52345d127fd') in 0.003025 seconds
+  Import took 0.025927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.211344 seconds.
+  path: Assets/Prefabs/insight_cruise_stage Variant.prefab
+  artifactKey: Guid(9b0d7affbc1e54e4587752ad641e656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/insight_cruise_stage Variant.prefab using Guid(9b0d7affbc1e54e4587752ad641e656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35a83c7fd8c04006bda49cc5d97fe4f') in 0.086091 seconds
+  Import took 0.089564 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001162 seconds.
+Registered in 0.000920 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
+- Completed reload, in  1.281 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.7 MB.
-System memory in use after: 56.8 MB.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1542.
-Total: 2.584800 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.050800 ms MarkObjects: 2.178700 ms  DeleteObjects: 0.170700 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 35.1 MB.
-System memory in use after: 35.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1542.
-Total: 2.001500 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.734900 ms  DeleteObjects: 0.063600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2505.374455 seconds.
-  path: Assets/3D Models
-  artifactKey: Guid(b54d3091dcb7eba47af69c26328c8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models using Guid(b54d3091dcb7eba47af69c26328c8cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89d6333ba784fc430e43b6e639f0d6') in 0.006002 seconds
-  Import took 0.008826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.878584 seconds.
-  path: Assets/3D Models/Nasa_Models
-  artifactKey: Guid(caff349b18b9e854daec0c38850a1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models using Guid(caff349b18b9e854daec0c38850a1703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5bd9ad58cfc31aa3d0f9cc25a9b287') in 0.004062 seconds
-  Import took 0.006490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.248531 seconds.
-  path: Assets/3D Models/Nasa_Models/Apollo_17
-  artifactKey: Guid(409187a2c7134ce4d8dc22515bc3a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Apollo_17 using Guid(409187a2c7134ce4d8dc22515bc3a432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cea5e65b5e15ab2c5ebaf26e241ffa2') in 0.003913 seconds
-  Import took 0.009941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.306196 seconds.
-  path: Assets/3D Models/Nasa_Models/Apollo_17/Apollo_17.stl
-  artifactKey: Guid(1e58fdf4d89095f469df77fd0cd9aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Apollo_17/Apollo_17.stl using Guid(1e58fdf4d89095f469df77fd0cd9aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a9819b2513c843d0c22d556e37d261') in 0.051809 seconds
-  Import took 0.054309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.312279 seconds.
-  path: Assets/3D Models/Nasa_Models/Aristarchusregionmoon3xv/Aristarchusregionmoon3xv.stl
-  artifactKey: Guid(0be89b44ca4891b41bdf54507a3a54b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Aristarchusregionmoon3xv/Aristarchusregionmoon3xv.stl using Guid(0be89b44ca4891b41bdf54507a3a54b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d89fa491b55b7e5f8725d93d998ff8b') in 0.005428 seconds
-  Import took 0.009931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.842890 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU
-  artifactKey: Guid(5cd83006c2a5313439431f24c62dfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU using Guid(5cd83006c2a5313439431f24c62dfa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c94948dbc4345145193025a859f63a') in 0.018960 seconds
-  Import took 0.022740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117520 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_01.jpg
-  artifactKey: Guid(cc1ace1505f1cdb49bdf78084f1c6aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_01.jpg using Guid(cc1ace1505f1cdb49bdf78084f1c6aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7d2eb078185da8051720f558f709ab') in 0.172060 seconds
-  Import took 0.176630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part2.obj
-  artifactKey: Guid(74ca12f59791a154eb41d1ea914b1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part2.obj using Guid(74ca12f59791a154eb41d1ea914b1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673c84a5b979f6fa938f13097268ef45') in 1.144856 seconds
-  Import took 1.148076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.obj
-  artifactKey: Guid(75d51f012b13f90429e53fd10175e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.obj using Guid(75d51f012b13f90429e53fd10175e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20e62e4b2762d2dc5b5bdfbf34698ad') in 0.053039 seconds
-  Import took 0.055214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_02.jpg
-  artifactKey: Guid(1128deae85a6a8f4e9ec3d4f4b261686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_02.jpg using Guid(1128deae85a6a8f4e9ec3d4f4b261686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2ffc1aaaa8e4319fddbdce8395ad0b') in 0.011023 seconds
-  Import took 0.014089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.504717 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.mtl
-  artifactKey: Guid(2d682b11f38fbf44f87b8757c30c8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.mtl using Guid(2d682b11f38fbf44f87b8757c30c8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a5aeacdc1f3610add6649b2462ef5') in 0.008685 seconds
-  Import took 0.013064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001592 seconds.
-  path: Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.mtl
-  artifactKey: Guid(2d682b11f38fbf44f87b8757c30c8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/HDU/HDU/HDU_lowRez_part1.mtl using Guid(2d682b11f38fbf44f87b8757c30c8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a5aeacdc1f3610add6649b2462ef5') in 0.005121 seconds
-  Import took 0.008910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.113515 seconds.
-  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend
-  artifactKey: Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/insight_cruise_stage.blend using Guid(8f7c4eb3a0fffae4cb574480dcaa944e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2535dfca445ca06efce1e91f3eb149c') in 0.253643 seconds
-  Import took 0.256745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/InsSight_cruise_thumb.png
-  artifactKey: Guid(1c4eeb6c07041d6458d67acab013bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/InSight_Cruise_Stage/InsSight_cruise_thumb.png using Guid(1c4eeb6c07041d6458d67acab013bc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09bff4053c943cab4fddb5916351fe2') in 0.014792 seconds
-  Import took 0.018264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 279.308142 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/__MACOSX
-  artifactKey: Guid(73504d037ae4bdc4ab53fff074f3dd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/__MACOSX using Guid(73504d037ae4bdc4ab53fff074f3dd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db48cf77d4c83abd8c1c8ba406ca8e6') in 0.004269 seconds
-  Import took 0.008022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.536345 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020
-  artifactKey: Guid(ab7123346625ae74ba785ed47c141c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020 using Guid(ab7123346625ae74ba785ed47c141c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f76a78a61bab9d64a3ecaed70de3117') in 0.004277 seconds
-  Import took 0.007448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075973 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/close_up_photo.jpg
-  artifactKey: Guid(7d4f08b0e7470324ea0f40d1918fab64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/close_up_photo.jpg using Guid(7d4f08b0e7470324ea0f40d1918fab64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ce801e899a47c9e07e97022027da0') in 0.019312 seconds
-  Import took 0.021851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/mars_2020_model_robotic_arm_assembly_instructions.png
-  artifactKey: Guid(1c950bc57d982764da5d2f6ac30a8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/mars_2020_model_robotic_arm_assembly_instructions.png using Guid(1c950bc57d982764da5d2f6ac30a8531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4572766c80c4c9784922ab0e52dcd') in 0.011748 seconds
-  Import took 0.014042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.890499 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/arm_pin.stl
-  artifactKey: Guid(67a0b4d264136a144bf8d1e92638e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/arm_pin.stl using Guid(67a0b4d264136a144bf8d1e92638e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b885bb41bc20b433917f6799ef26cdce') in 0.003964 seconds
-  Import took 0.006646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005568 seconds.
-  path: Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/arm_pin.stl
-  artifactKey: Guid(67a0b4d264136a144bf8d1e92638e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/M2020 Model Rover STLs AUG 2020/M2020 Model Rover STLs AUG 2020/arm_pin.stl using Guid(67a0b4d264136a144bf8d1e92638e4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b885bb41bc20b433917f6799ef26cdce') in 0.006383 seconds
-  Import took 0.009409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.007682 seconds.
-  path: Assets/3D Models/Nasa_Models/mar0kuu2.jpg/mar0kuu2.jpg
-  artifactKey: Guid(45880002577955f49975574eeb962766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/mar0kuu2.jpg/mar0kuu2.jpg using Guid(45880002577955f49975574eeb962766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88218f14fccd708a8991e9f9a067196') in 0.011232 seconds
-  Import took 0.013952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.496413 seconds.
-  path: Assets/3D Models/Nasa_Models/mar0kuu2.tif/mar0kuu2.tif
-  artifactKey: Guid(3d355e3f20320af40bc110d8e25b6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/mar0kuu2.tif/mar0kuu2.tif using Guid(3d355e3f20320af40bc110d8e25b6f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f77614e0dd69ed6ad11070a9f7d9f7') in 0.052411 seconds
-  Import took 0.056007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.031749 seconds.
-  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-1.jpeg
-  artifactKey: Guid(98949a6a42399f848b8a4b31522caa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-1.jpeg using Guid(98949a6a42399f848b8a4b31522caa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073b0aa367f502d9cf7357f3b42457ea') in 0.013714 seconds
-  Import took 0.016520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-3.jpeg
-  artifactKey: Guid(e5cf6393530b06c4fad336a531918c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-3.jpeg using Guid(e5cf6393530b06c4fad336a531918c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2545a2c6790d3cce903482c275cd9756') in 0.011640 seconds
-  Import took 0.013924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-2.jpeg
-  artifactKey: Guid(32275d963cd6ba04e9c50f92f187d6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/M2020_WHEEL_DESKTOP_MODEL-5inch-2.jpeg using Guid(32275d963cd6ba04e9c50f92f187d6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a2b0349fe44092ce1d09cda36f1e81') in 0.012050 seconds
-  Import took 0.014589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/Screen Shot 2020-05-12 at 4.40.14 PM.png
-  artifactKey: Guid(91881623bca86024fa8d5f5169da3c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/Screen Shot 2020-05-12 at 4.40.14 PM.png using Guid(91881623bca86024fa8d5f5169da3c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d082444afd5f0f52e301cdc7da50df') in 0.015994 seconds
-  Import took 0.018888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/Wheel screen shot.png
-  artifactKey: Guid(e5889b166f8eca24eb4b0d7f491b36c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel/Wheel screen shot.png using Guid(e5889b166f8eca24eb4b0d7f491b36c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba791d59d2c306b1480cff18bc5b18d') in 0.019248 seconds
-  Import took 0.022313 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 2.438800 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.052800 ms MarkObjects: 2.147900 ms  DeleteObjects: 0.027300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
