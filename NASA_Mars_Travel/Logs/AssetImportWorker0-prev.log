@@ -1,0 +1,224 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.418; Version 1903; 64bit' Language: 'en' Physical Memory: 8073 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50482
+Successfully changed project path to: D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   25.21.14.2678
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001385 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00061] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x00024] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0003c] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.102 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3103ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (2751ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2084ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (2018ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 5.413500 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.147700 ms MarkObjects: 4.752000 ms  DeleteObjects: 0.251300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(88ebfe1e3b97191488484fa3a071d7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(88ebfe1e3b97191488484fa3a071d7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b6e2c66be407954c35e537f681f68a') in 0.041429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1033.851300 seconds.
+  path: Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel
+  artifactKey: Guid(3c25b1e6d27c3f24badad898478a7ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Mini_Perseverance_Rover_Wheel using Guid(3c25b1e6d27c3f24badad898478a7ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb66e1b90e506a49995420f02f4f223') in 0.004594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.085477 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance
+  artifactKey: Guid(7c8f4049cd8165c4a88effda25f565fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance using Guid(7c8f4049cd8165c4a88effda25f565fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147ce76221afc63f201f37cd877dc2e0') in 0.004087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.157126 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend
+  artifactKey: Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend using Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090c0fed114bf92e13a27e7012dc42cd') in 4.166638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 582.262164 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.txt
+  artifactKey: Guid(ae257b0e16ff5ab439f3375d0fe437eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.txt using Guid(ae257b0e16ff5ab439f3375d0fe437eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f98f7bcaeefe09406ab911333ea237') in 0.081425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.804670 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.fbx
+  artifactKey: Guid(b5d1c11d478fba84fb11ca44c02f7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.fbx using Guid(b5d1c11d478fba84fb11ca44c02f7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4922fd5c18ffa3339823a90dc5600f') in 1.574957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 605.131947 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend
+  artifactKey: Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.blend using Guid(5d48470a1d565e247b59eac1c20f16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60a5a6ca4f5b3da9cc5a0781528cd10') in 0.722729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 367.853490 seconds.
+  path: Assets/3D Models/Nasa_Models/Perseverance/Perseverance.fbx
+  artifactKey: Guid(b5d1c11d478fba84fb11ca44c02f7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Nasa_Models/Perseverance/Perseverance.fbx using Guid(b5d1c11d478fba84fb11ca44c02f7d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edbdb5e087e513833e402bf31f05db9') in 0.845486 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
