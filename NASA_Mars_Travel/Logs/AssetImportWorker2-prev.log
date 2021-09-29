@@ -1,0 +1,476 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.418; Version 1903; 64bit' Language: 'en' Physical Memory: 8073 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55921
+Successfully changed project path to: D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 133.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   25.21.14.2678
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002327 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3249ms)
+		BeginReloadAssembly (411ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00061] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x00024] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0003c] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8007ms)
+		BeginReloadAssembly (443ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (7469ms)
+			LoadAssemblies (965ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (727ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (5453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (5322ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 11.389500 ms (FindLiveObjects: 0.988900 ms CreateObjectMapping: 0.573300 ms MarkObjects: 9.445900 ms  DeleteObjects: 0.376700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_01.png
+  artifactKey: Guid(c522132dc948b174f9432210916877d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_01.png using Guid(c522132dc948b174f9432210916877d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db99a9c09ec0afc89753261dd1869fa') in 0.235204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Facebook_BTN.png
+  artifactKey: Guid(a1ed5c269292f4448a2e49b4e1e984a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Facebook_BTN.png using Guid(a1ed5c269292f4448a2e49b4e1e984a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383cfbe394a7a6084f489c09aa70b18d') in 0.094855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.727756 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_01.png
+  artifactKey: Guid(c522132dc948b174f9432210916877d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_01.png using Guid(c522132dc948b174f9432210916877d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0e1d3c858ef748c0b6df20724155c0') in 0.049244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.772182 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Armor_Icon.png
+  artifactKey: Guid(4c7286e8182020046b41c5692307273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Armor_Icon.png using Guid(4c7286e8182020046b41c5692307273c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5220dbd5cc9834b214945a1c8dc2ac4') in 0.036008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.198877 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Dot_02.png
+  artifactKey: Guid(a646eb24c63c6d641b8789b9f863fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Dot_02.png using Guid(a646eb24c63c6d641b8789b9f863fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88873e98f2dd653236ad1406f6ade9ed') in 0.046998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.975728 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Dot_02.png
+  artifactKey: Guid(a646eb24c63c6d641b8789b9f863fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Hangar/Dot_02.png using Guid(a646eb24c63c6d641b8789b9f863fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265fe56bff383309c81ae84fbc227796') in 0.035533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.472485 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_04.png
+  artifactKey: Guid(85048d3e814c9f34cac7bbba4e3554af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_04.png using Guid(85048d3e814c9f34cac7bbba4e3554af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd08d0473b0374d5c36b6bb3a77ccec2') in 0.043038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850458 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_03.png
+  artifactKey: Guid(948374c3d8d70ac458d625f7299803fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_03.png using Guid(948374c3d8d70ac458d625f7299803fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3627a791c417559e82edb54af7f3b0') in 0.153686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.433544 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png
+  artifactKey: Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png using Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d9abf4f39cf8138a6b4c84d72f715b') in 0.062610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.343765 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png
+  artifactKey: Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png using Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a578f80ff63debf6b8a3418c37b0ba4') in 0.016493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.818441 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_1_1.png
+  artifactKey: Guid(c65be7981834dd24eaa2c5e6cff4b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_1_1.png using Guid(c65be7981834dd24eaa2c5e6cff4b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff3fa8e891fd5d139c99f43e5df2348') in 0.034546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.468904 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png
+  artifactKey: Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png using Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3320e57a7c4b1227ad30d048eba81fdf') in 0.061518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.173227 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png
+  artifactKey: Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png using Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a030c89d8168e1b34a3b49934615b0') in 0.029943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.578292 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Window.png
+  artifactKey: Guid(052b463c14f387b40a407afab457a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Window.png using Guid(052b463c14f387b40a407afab457a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5c6e7cc80e3efc5177b1d812760d1d') in 0.024235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.165161 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png
+  artifactKey: Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Level_Menu/Close_BTN.png using Guid(64077be51b880014a8fe5b327837402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f765f7ac202197e913e9cd1b52e3bd') in 0.032140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.215356 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_1_1.png
+  artifactKey: Guid(c65be7981834dd24eaa2c5e6cff4b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_1_1.png using Guid(c65be7981834dd24eaa2c5e6cff4b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51706c4daedd954c70882b33aa698096') in 0.037923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.250452 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Armor_Bar_Dot.png
+  artifactKey: Guid(7a1ec68c3fe38e541ab212d4a16fd08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Armor_Bar_Dot.png using Guid(7a1ec68c3fe38e541ab212d4a16fd08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8203f0f92696a53afb37a4be02f0b409') in 0.061426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.636359 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Health_Bar_Table.png
+  artifactKey: Guid(47020bed0d056c14b815aeee1dce24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Health_Bar_Table.png using Guid(47020bed0d056c14b815aeee1dce24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c467515207ae3c02125ab1e05b92cb9') in 0.040418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.022298 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Health_Bar_Table.png
+  artifactKey: Guid(47020bed0d056c14b815aeee1dce24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Health_Bar_Table.png using Guid(47020bed0d056c14b815aeee1dce24cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9869040be0367f1b93a23620f1b74a0d') in 0.037549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.698498 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Hangar_BTN.png
+  artifactKey: Guid(e95f22ca573bc5d468c093d3d4e4d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Hangar_BTN.png using Guid(e95f22ca573bc5d468c093d3d4e4d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e3c60e242b85a73183367ec7fdee16') in 0.021048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047504 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Settings_BTN.png
+  artifactKey: Guid(443562c9d69ec0c48b5d1626bfe1d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Settings_BTN.png using Guid(443562c9d69ec0c48b5d1626bfe1d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222b007bbf830d7b28e9bfb31c8a9e1d') in 0.050831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.603845 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Settings_BTN.png
+  artifactKey: Guid(443562c9d69ec0c48b5d1626bfe1d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Pause/Settings_BTN.png using Guid(443562c9d69ec0c48b5d1626bfe1d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467b0dafff22bc9d9f1341dfbad73b92') in 0.019116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.718686 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Backward_BTN.png
+  artifactKey: Guid(218a35ee3277d7445bcaa49aff14e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Backward_BTN.png using Guid(218a35ee3277d7445bcaa49aff14e65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00158a5ab0c075f4d9daa1dc1ab4eaa3') in 0.023528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.045696 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Ok_BTN.png
+  artifactKey: Guid(0ca857bad8676c840898f9cdbd95032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Ok_BTN.png using Guid(0ca857bad8676c840898f9cdbd95032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135c3fc38159c20f442d5a9f1cd52677') in 0.018099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.012726 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Ok_BTN.png
+  artifactKey: Guid(0ca857bad8676c840898f9cdbd95032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Ok_BTN.png using Guid(0ca857bad8676c840898f9cdbd95032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7380761237fc20397459c024d08ead97') in 0.026310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.284572 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Close_BTN.png
+  artifactKey: Guid(090d0cebd32cf61418ca054a9abf9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Close_BTN.png using Guid(090d0cebd32cf61418ca054a9abf9350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96bcdfcaa031585a1d3dcff08f325a3') in 0.014717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.063359 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Music.png
+  artifactKey: Guid(f5881624f89010f44af1e48d78f9a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Music.png using Guid(f5881624f89010f44af1e48d78f9a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b140b08550cc590ab31165ebcd959f3') in 0.022863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.793708 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Music.png
+  artifactKey: Guid(f5881624f89010f44af1e48d78f9a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Music.png using Guid(f5881624f89010f44af1e48d78f9a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdb416080010a998a9a88f9003ab868') in 0.048711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.974938 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Armor_Icon.png
+  artifactKey: Guid(da3cbcfbb52bc8c419000a5df665bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Armor_Icon.png using Guid(da3cbcfbb52bc8c419000a5df665bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0f510a5d3086d39ffc20c549c05ccb') in 0.049719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.689897 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Ship_1_4_BTN.png
+  artifactKey: Guid(471b22b41f55a7c488eddf04935f17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Ship_1_4_BTN.png using Guid(471b22b41f55a7c488eddf04935f17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3d3496c5bc89861cd54da0b692859b') in 0.015222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.617479 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Ship_1_4_BTN.png
+  artifactKey: Guid(471b22b41f55a7c488eddf04935f17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Parts/Ship_1_4_BTN.png using Guid(471b22b41f55a7c488eddf04935f17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67762579c77abf944e73f3daa39e44b4') in 0.239745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.246093 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Backward_BTN.png
+  artifactKey: Guid(18da693984e699744bfec9bae148e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Backward_BTN.png using Guid(18da693984e699744bfec9bae148e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d0761413f2466f619f035863450be7') in 0.055210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.066963 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Ok_BTN.png
+  artifactKey: Guid(7d6642fb5aea4ab4096616f3fdb63009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Ok_BTN.png using Guid(7d6642fb5aea4ab4096616f3fdb63009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d102121fc37484f0544af03970d56ad') in 0.018523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.806116 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Ok_BTN.png
+  artifactKey: Guid(7d6642fb5aea4ab4096616f3fdb63009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Ship_Shop/Ok_BTN.png using Guid(7d6642fb5aea4ab4096616f3fdb63009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df20cc7684552c4e6628e651a948acf') in 0.026638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.292188 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Close_BTN.png
+  artifactKey: Guid(61348d832a3ae6440b45f583a21d333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Close_BTN.png using Guid(61348d832a3ae6440b45f583a21d333d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28a47e909724a4fb4eb8bacf3fdf893') in 0.021271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.900060 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Header.png
+  artifactKey: Guid(4aae173ec2d406c4798eacce950f8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Header.png using Guid(4aae173ec2d406c4798eacce950f8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d71acd07dc6c5c6094fa5ce3f524a01') in 0.029233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.447573 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Header.png
+  artifactKey: Guid(4aae173ec2d406c4798eacce950f8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Header.png using Guid(4aae173ec2d406c4798eacce950f8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bbcf6b67ebf2e4151658d3e59c1f4f') in 0.165059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.993895 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Armor.png
+  artifactKey: Guid(dcfc37cb7963c2d4e8f87af883ac70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Armor.png using Guid(dcfc37cb7963c2d4e8f87af883ac70cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24155b93140cee995e9b82d104b9418d') in 0.020407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.348016 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Health.png
+  artifactKey: Guid(c227afa7b1d63694caf7b7a569c84880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Health.png using Guid(c227afa7b1d63694caf7b7a569c84880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ccd35058c835e059c1989798be44b1') in 0.027748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.718298 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Health.png
+  artifactKey: Guid(c227afa7b1d63694caf7b7a569c84880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Upgrade/Health.png using Guid(c227afa7b1d63694caf7b7a569c84880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c93d26374491cbf0e3201cafd70ec27') in 0.020436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.217163 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Close_BTN.png
+  artifactKey: Guid(2d1db8225e805e74a85eb25f747f4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Close_BTN.png using Guid(2d1db8225e805e74a85eb25f747f4525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723ad9a3e9063cb9b938cd9aa8b2ed4b') in 0.027445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.671910 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Header.png
+  artifactKey: Guid(41ec2ef84f21ce34592b147353bf2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Header.png using Guid(41ec2ef84f21ce34592b147353bf2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1780b4e4925b5036ef807fc7d27f44fa') in 0.023398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.687782 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Header.png
+  artifactKey: Guid(41ec2ef84f21ce34592b147353bf2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Lose/Header.png using Guid(41ec2ef84f21ce34592b147353bf2757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56579f66e5ef9814f01410c1cde9ff3') in 0.033716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.324664 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Window.png
+  artifactKey: Guid(0942049216896ca44b87437dcf2d11a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Window.png using Guid(0942049216896ca44b87437dcf2d11a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9bceba427067ac93ab3e8e337753cf') in 0.031010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.243602 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Header.png
+  artifactKey: Guid(0885a2f393abe2f4db8bb87b464488c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Header.png using Guid(0885a2f393abe2f4db8bb87b464488c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96531ed4c4176f12084ee714122ef2fd') in 0.048569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.088314 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Header.png
+  artifactKey: Guid(0885a2f393abe2f4db8bb87b464488c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/You_Win/Header.png using Guid(0885a2f393abe2f4db8bb87b464488c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0948caf500f68f653129f420c60782') in 0.233338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.724937 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/BG.png
+  artifactKey: Guid(82defdd279a43384b9be7704abd2a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/BG.png using Guid(82defdd279a43384b9be7704abd2a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750d500b7b9ad2043c05c26975c55110') in 0.086877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.445760 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png
+  artifactKey: Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png using Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d759c46eab00af2b5b55ad35375be8') in 0.063063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.718492 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png
+  artifactKey: Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png using Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06e75e9eaf5f05a06359f1892208304') in 0.037341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.155984 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png
+  artifactKey: Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Clouds/Cloud_02.png using Guid(def63f5c89427014aacc4937bd9e4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5adc38c2987676980b7bc76056d62e7') in 0.017559 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

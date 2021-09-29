@@ -2078,8 +2078,12 @@ public class RPGTalk : MonoBehaviour {
                         dialogerUI.Enabled(false);
                     }
                 }
-                for (int i = 0; i < showWithDialog.Length; i++) {
-                    showWithDialog [i].SetActive (false);
+                if (showWithDialog != null)
+                {
+                    for (int i = 0; i < showWithDialog.Length; i++)
+                    {
+                        showWithDialog[i].SetActive(false);
+                    }
                 }
             }
 
