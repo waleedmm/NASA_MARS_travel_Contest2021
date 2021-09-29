@@ -396,6 +396,8 @@
 "Assets/SampleScenes/Scripts/SlowMoButton.cs"
 "Assets/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Util/MeterController.cs"
+"Assets/Scripts/Util/SceneSwitcher.cs"
 -langversion:8.0
 
 /deterministic

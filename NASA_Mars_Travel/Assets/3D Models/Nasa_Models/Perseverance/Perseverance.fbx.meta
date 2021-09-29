@@ -1581,7 +1581,242 @@ ModelImporter:
   - first:
       74: -9039608960753558201
     second: Armature|turret_objAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 3c386436331260a419659eb542cda08c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminum
+    second: {fileID: 2100000, guid: 578c00a1ad2d71a48bd59fc4e6bb107e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminum.001
+    second: {fileID: 2100000, guid: cba5db0ce979da642912efe3d2958a15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminum.003
+    second: {fileID: 2100000, guid: addbe61202c16ef43a0d2be2186cebe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminum_black
+    second: {fileID: 2100000, guid: 38dcabfbee92d2b4b9125fed21026a5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminum_black.001
+    second: {fileID: 2100000, guid: f245098276e183d4e96c2314e309c424, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arm_graphics
+    second: {fileID: 2100000, guid: 4725526ca2cf4ca4284f7581b9d5e593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: array gold trim
+    second: {fileID: 2100000, guid: 1c0ec3858e151ee4fa4ad3820749e12f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_krinkle
+    second: {fileID: 2100000, guid: c9ea9fd5ce0876841aa8c9da56203c4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blades
+    second: {fileID: 2100000, guid: b98794d2ff61ee44a908a304edc4bf90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brass
+    second: {fileID: 2100000, guid: 10876db7a3641684890cad9e27483efa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bronze
+    second: {fileID: 2100000, guid: 0ed8f30a7d8fd8d49be18fa18f409310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper
+    second: {fileID: 2100000, guid: debb3af124e8b12418093621697696e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foil_orange
+    second: {fileID: 2100000, guid: 2c13c7ea64f397342b695ee9cea3407b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass lens
+    second: {fileID: 2100000, guid: 5642a1c272b53a04681df473c39a7bbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_2
+    second: {fileID: 2100000, guid: b17dab2f04994a44fbfcd3bc137d6fa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_trans
+    second: {fileID: 2100000, guid: be94a08660a18234daad7166855d8879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: c760faa13e2c08842bd8da75ecf4185a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray_krinkle
+    second: {fileID: 2100000, guid: b762d59d47fd7914eb3d3cc2c5165d53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey_brushed
+    second: {fileID: 2100000, guid: 15ba3a43c9c1c3d458528e8df37d0d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gunmetal
+    second: {fileID: 2100000, guid: 1ab6d5d8f6d7e724e86c713e28287754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gunmetal_dark
+    second: {fileID: 2100000, guid: d6a51c622778dd3498b3b6a7ae7f82db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hub
+    second: {fileID: 2100000, guid: 5e0704d4903010145af48a9acb4f1688, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iron
+    second: {fileID: 2100000, guid: 9d0e2bee008331d4ebf65a28e55fff68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_01
+    second: {fileID: 2100000, guid: 7be60d2c2ee981e4ca2f3ca79f2c15cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_01_n
+    second: {fileID: 2100000, guid: 79e19543f7e9d5a4981ce083f1a05ecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_02
+    second: {fileID: 2100000, guid: b043540cf1d757144a13df088a1a5a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_02_n
+    second: {fileID: 2100000, guid: a647de0ae5ca0704798e3d45cb11e797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_03
+    second: {fileID: 2100000, guid: d4917831710c2bf4ea9a8c6337666e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_03.002
+    second: {fileID: 2100000, guid: 2374417010688ac4599aa5bacf9d784e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_04
+    second: {fileID: 2100000, guid: 008584551aa9a6e4a9e1dd5a87c6aff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_04.001
+    second: {fileID: 2100000, guid: 2d4201182985a884a9a429a9ab3691bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_04_aluminum_r
+    second: {fileID: 2100000, guid: ebf22547f46506848b6be5f7b9869275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_05
+    second: {fileID: 2100000, guid: cd29c514504a3774ca23ee3d971489fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_05_aluminum
+    second: {fileID: 2100000, guid: d2444a0f2740fbe4c9f3d2d02adce1dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_05_brass
+    second: {fileID: 2100000, guid: 41c4cf58665130b4d8167f91e75b8dd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_05_cooling_lines
+    second: {fileID: 2100000, guid: 1a87d1a6b805f7143b2bbca235f0314b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_05_gunmetal
+    second: {fileID: 2100000, guid: fdec62adb0a08d54a9ead9791ef8782a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_06
+    second: {fileID: 2100000, guid: 0f1f093ab46404048a664c900c23e28a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_06_brass
+    second: {fileID: 2100000, guid: 7ac5efde4846c3248bd98be20bbcde77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_06_n
+    second: {fileID: 2100000, guid: 114e8bdba65429c45b7624a148c68b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_07
+    second: {fileID: 2100000, guid: f39aea3d621cc884a8cee246feee2a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mars_2020_gunmetal_dark
+    second: {fileID: 2100000, guid: ab169398ac77ae94880f694ec0e8ce79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paint_white_base
+    second: {fileID: 2100000, guid: bc8141d2b0fc9b14bb942a0da7444de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sample_handling_door
+    second: {fileID: 2100000, guid: b335102482ef78440a1d801b8b05713d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spring
+    second: {fileID: 2100000, guid: 764193ede64af6b45a592e9b7377908d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparent
+    second: {fileID: 2100000, guid: eadd5dcb2fcfc8f46a2b3ce4221c5cc8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
