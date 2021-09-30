@@ -2,6 +2,12 @@
 *PlayerName*: This project simulates the Entry-Descending-Landing process of Perseverance Rover on <color=red>mars</color> 2020
 *PlayerName*: your first mission is guide the Rover to land successfully on the desired location
 
+-------- Level 1-1 completion ---------
+*PlayerName*: good job
+*PlayerName*: now for the next mission (De-Spin)
+*PlayerName*: use controls to stop the rotation of or reduce the speed of rotation of (something, such as a satellite)----
+-------- --------------- ---------
+
 So you like the Quick Start, hum?
 This is it! Just a TXT with all the text, and let us do the rest!
 Although, we have a lot of useful options... Be sure to check the Complex Demo!
