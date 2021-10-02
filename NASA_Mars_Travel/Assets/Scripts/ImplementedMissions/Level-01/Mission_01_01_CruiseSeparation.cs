@@ -8,7 +8,7 @@ public class Mission_01_01_CruiseSeparation : Mission, IComplete
 
 	public PlayerShipState m_ShipPlayer;
 	
-	public GameObject m_ToBeFoundGlasses;
+	
 	public Vector2Int m_RPG_Init_Lines, m_RPG_Done_lines;
 	void Start()
 	{

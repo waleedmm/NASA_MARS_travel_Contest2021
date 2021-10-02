@@ -13,8 +13,18 @@ public class Mission : MonoBehaviour {
 	public UnityEvent m_CallOnDone;
 	public UIManager m_UIManager;
 	public string 	m_CompletionMessage = "done message" ;
+	public string m_FailureMessage = "Failure To Complete mission";
 	public MissionManager missionMan;
 	public int m_MissionIndex;
+
+	public virtual void PeriodicalCheck()
+	{ 
+		//TODO: Override
+	}
+	public void ReportMissionFailure(string extraFailureMessage = "")
+	{
+		missionMan.ReportFailureofCurrentMission(m_FailureMessage + "." + extraFailureMessage) ;
+	}
 	public void SetCompleted(){
 		isCompleted = true;
 		isCurrent = false;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MissionManager : MonoBehaviour {
 
@@ -49,7 +50,10 @@ public class MissionManager : MonoBehaviour {
 		//referenciando o limiterManager
 		//limiterManager = FindObjectOfType<LimiterManager> ();
 	}
-
+	public void ReportFailureofCurrentMission(string message)
+	{
+		m_UIManager.ShowLoseWindow(message);
+	}
 	public void CompleteMission(int MissionIndex){
 		source.PlayOneShot(clip);
 		if (MissionIndex > m_LastDoneMissionIndex)

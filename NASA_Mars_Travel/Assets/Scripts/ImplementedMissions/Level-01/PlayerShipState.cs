@@ -30,3 +30,19 @@ public class PlayerShipState : MonoBehaviour
 
     }
 }
+
+public enum SimulationPhases {
+    Phase01_StageSeparation,
+    Phase02_Despin,
+    Phase03_EnterAtomsphere,
+    Phase04_DeployParachute,
+    Phase05_SplitHeatShield,
+    Phase06_TerrainRelativeNavigationComputer,
+    Phase07_RemoeParachute,
+    Phase08_DetechRover,
+    Phase09_RoverSlowLanding,
+    Phase10_TurnEngineOff,
+    Phase11_CollectSample,
+    Phase12_AnalyseSample,
+    Phase13_SendResultsToEarth
+}
