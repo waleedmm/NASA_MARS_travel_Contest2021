@@ -8,13 +8,24 @@ public class MaterialSequencer : MonoBehaviour
      MeshRenderer m_renderer;
     public float m_MaterialDurationSeconds = 0.25f;
     public bool m_EnableMaterialSequence = true;
+    public Material m_CorrectMaterial;
+
     // Use this for initialization
     void Start()
     {
         m_renderer = GetComponent<MeshRenderer>();
+        
+    }
+    public void EnableBlinkingTarget()
+    {
+        m_EnableMaterialSequence = true;
         StartCoroutine(AutoChangeMaterial());
     }
-
+    public void SetCorrectLandingMaterial()
+    {
+        m_EnableMaterialSequence = false;
+        m_renderer.material = m_CorrectMaterial;
+    }
     public IEnumerator AutoChangeMaterial()
     {
         int index = 0;

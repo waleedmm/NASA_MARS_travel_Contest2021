@@ -524,13 +524,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8672406997501704094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f1c10c1a880cc409f8dfbe7bcdf750, type: 3}
+  m_Script: {fileID: 11500000, guid: 18b297d5c41feab45bc45f0ecc01458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: {fileID: 8672406998429182848}
   m_Description: {fileID: 8672406997554614528}
   m_StateImage: {fileID: 8672406997167458208}
-  m_doneSprite: {fileID: 21300000, guid: f11089587ebda9748ad4753ac5eb49a3, type: 3}
+  m_doneSprite: {fileID: 21300000, guid: 898b47e993db1ca41880f05489475f61, type: 3}
 --- !u!1 &8672406997554614531
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ public class MeterController : MonoBehaviour
     public TMPro.TextMeshProUGUI m_TextFeature;
 
     public string m_FeatureName = "Speed";
+    public bool m_StartOnLoading = true;
+    //public string m_Unit = "KM;"
     public void RedrawPointerWithCurrentValue()
     {
         m_TextValue.text = m_Value.ToString()+"%";
@@ -23,14 +25,15 @@ public class MeterController : MonoBehaviour
 
         float anglePercentage = (float)(m_Value - m_MinValue) / ValueRange; 
         float desiredAngle = m_MinAngle + m_AngleDirection * anglePercentage * AngleRange;
-        print("angle =" + desiredAngle);
+        //print("angle =" + desiredAngle);
         m_PointerSpriteTransform.rotation= Quaternion.Euler(0, 0, desiredAngle);
     }
     // Start is called before the first frame update
     void Start()
     {
         m_TextFeature.text = m_FeatureName;
-        RedrawPointerWithCurrentValue();
+        if(m_StartOnLoading)
+            RedrawPointerWithCurrentValue();
     }
 
     // Update is called once per frame

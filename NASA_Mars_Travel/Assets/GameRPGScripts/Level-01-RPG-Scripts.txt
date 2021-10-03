@@ -6,8 +6,13 @@
 *PlayerName*: good job
 *PlayerName*: now for the next mission (De-Spin)
 *PlayerName*: use controls to stop the rotation of or reduce the speed of rotation of (something, such as a satellite)----
--------- --------------- ---------
 
+-------- Level 1-2 completion ---------
+*PlayerName*: Perfect, Prepare yourself to enter the Atmosphere of mars
+*PlayerName*: this will generate too much heat. Your Heat Shield will protect you.
+
+
+-------- --------------- ---------
 So you like the Quick Start, hum?
 This is it! Just a TXT with all the text, and let us do the rest!
 Although, we have a lot of useful options... Be sure to check the Complex Demo!

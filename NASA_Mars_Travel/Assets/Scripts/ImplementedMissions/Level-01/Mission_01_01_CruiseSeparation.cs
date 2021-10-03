@@ -21,7 +21,7 @@ public class Mission_01_01_CruiseSeparation : Mission, IComplete
 	public void EndMission()
 	{
 		m_ShipPlayer.SeparateStatgeCruise();
-		
+		print("mission end");
 		//m_PlayerGlasses.SetActive(true);
 		missionMan.CompleteMission(this.m_MissionIndex);
 		if (m_RPG_Done_lines.magnitude > 0)
@@ -30,5 +30,18 @@ public class Mission_01_01_CruiseSeparation : Mission, IComplete
 		}
 	}
 
+    public void Mission_Update()
+    {
+        throw new System.NotImplementedException();
+    }
 
+    public bool AreRequriedPrerequistsGood()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public bool IsMissionCompleted()
+    {
+        throw new System.NotImplementedException();
+    }
 }

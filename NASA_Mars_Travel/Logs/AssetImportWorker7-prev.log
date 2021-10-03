@@ -1,0 +1,354 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18362.418; Version 1903; 64bit' Language: 'en' Physical Memory: 8073 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+54823
+Successfully changed project path to: D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/S_Work/NASA_Hackanthon/Github_NASA_MarsTravelProject/NASA_MARS_travel_Contest2021/NASA_Mars_Travel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
+    Vendor:   NVIDIA
+    VRAM:     2007 MB
+    Driver:   25.21.14.2678
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001680 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00061] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x00024] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0003c] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4672ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (4348ms)
+			LoadAssemblies (1327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (2555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (2410ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.51 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2409 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.4 MB.
+System memory in use after: 210.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2888.
+Total: 10.231300 ms (FindLiveObjects: 0.471700 ms CreateObjectMapping: 0.277800 ms MarkObjects: 9.070500 ms  DeleteObjects: 0.408800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ImplementedMissions/Level-01/PlayerShipState.cs
+  artifactKey: Guid(abdd2ffb67b65de42abe50b15f8f9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ImplementedMissions/Level-01/PlayerShipState.cs using Guid(abdd2ffb67b65de42abe50b15f8f9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6187f95e77014358fbd944da3828dcb8') in 0.306154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.559587 seconds.
+  path: Assets/Scripts/ShipMovmentManager.cs
+  artifactKey: Guid(1fbeaca7eda581f4a88675413a3850cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShipMovmentManager.cs using Guid(1fbeaca7eda581f4a88675413a3850cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf0db2c255007242c62e769448ec23e') in 0.003419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005457 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00061] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <285c6bc6619c4d51ad70e6acd40c87aa>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <772fffca5f8f4126948faf45cfbc3ba4>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x00024] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0003c] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 67)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00001] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x00023] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00001] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x00023] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00001] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x00023] in D:\S_Work\NASA_Hackanthon\Github_NASA_MarsTravelProject\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <7ca9a09aeae542ab86253a551b1c89a0>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+Mono: successfully reloaded assembly
+- Completed reload, in  4.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4083ms)
+		BeginReloadAssembly (352ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (3649ms)
+			LoadAssemblies (264ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (549ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (2558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (2466ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (104ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2351 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.1 MB.
+System memory in use after: 204.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 5.650500 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.116000 ms MarkObjects: 4.939800 ms  DeleteObjects: 0.340800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

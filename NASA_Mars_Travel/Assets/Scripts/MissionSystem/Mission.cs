@@ -17,10 +17,8 @@ public class Mission : MonoBehaviour {
 	public MissionManager missionMan;
 	public int m_MissionIndex;
 
-	public virtual void PeriodicalCheck()
-	{ 
-		//TODO: Override
-	}
+	
+
 	public void ReportMissionFailure(string extraFailureMessage = "")
 	{
 		missionMan.ReportFailureofCurrentMission(m_FailureMessage + "." + extraFailureMessage) ;

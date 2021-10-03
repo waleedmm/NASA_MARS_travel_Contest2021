@@ -7,6 +7,7 @@ public class LerpCameraFollow : MonoBehaviour
 
     public float smoothSpeed = 1f;
     public Vector3 offset;
+    public bool m_ForceLookAt = false;
 
     void Start()
     {
@@ -18,7 +19,9 @@ public class LerpCameraFollow : MonoBehaviour
         Vector3 desiredPosition = target.position + offset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
-
-        transform.LookAt(target);
+        if (m_ForceLookAt)
+        {
+            transform.LookAt(target);
+        }
     }   
 }
