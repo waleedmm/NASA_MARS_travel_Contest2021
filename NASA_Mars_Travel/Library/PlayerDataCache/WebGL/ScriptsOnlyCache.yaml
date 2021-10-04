@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Utility.SmoothFollow
     Assembly-CSharp.dll:
     - ArrowObjectPool
+    - Assets.Scripts.Util.PauseGameOnEnabled
     - BoxObjectPool
     - FlyCamera
     - Indicator
@@ -16,6 +17,12 @@ ScriptsOnlyBuild:
     - MissionItemSlotManager
     - MissionManager
     - Mission_01_01_CruiseSeparation
+    - Mission_01_02_Despin
+    - Mission_01_03_AtmosphereEnterance
+    - Mission_01_04_DeployParachute
+    - Mission_01_05_RemoveHeatShield
+    - Mission_01_06_DropDescendingUnit
+    - Mission_01_10_CollectSample
     - OffScreenIndicator
     - PlayerShipState
     - RPGTALK.Helper.RPGTalkCharacter
@@ -134,81 +141,95 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1682}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 1812}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1816}
     - Class: 114
-      Script: {instanceID: 1990}
+      Script: {instanceID: 1882}
     - Class: 114
-      Script: {instanceID: 2128}
+      Script: {instanceID: 1994}
     - Class: 114
-      Script: {instanceID: 2464}
+      Script: {instanceID: 2132}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3110}
+      Script: {instanceID: 3056}
     - Class: 114
-      Script: {instanceID: 3214}
+      Script: {instanceID: 3114}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3218}
     - Class: 114
-      Script: {instanceID: 3416}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3500}
     - Class: 114
       Script: {instanceID: 3596}
     - Class: 114
-      Script: {instanceID: 3724}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 3746}
+      Script: {instanceID: 3728}
     - Class: 114
-      Script: {instanceID: 3770}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 3828}
+      Script: {instanceID: 3774}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3832}
     - Class: 114
-      Script: {instanceID: 4018}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 4074}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4142}
+      Script: {instanceID: 4078}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4146}
     - Class: 114
-      Script: {instanceID: 4372}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 4436}
+      Script: {instanceID: 4376}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4440}
     - Class: 114
       Script: {instanceID: 4598}
     - Class: 114
-      Script: {instanceID: 4870}
+      Script: {instanceID: 4604}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 4876}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5216}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 5750}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5858}
     - Class: 114
-      Script: {instanceID: 20842}
+      Script: {instanceID: 5936}
+    - Class: 114
+      Script: {instanceID: 21112}
+    - Class: 114
+      Script: {instanceID: 30640}
+    - Class: 114
+      Script: {instanceID: 56964}
+    - Class: 114
+      Script: {instanceID: 70962}
+    - Class: 114
+      Script: {instanceID: 75780}
+    - Class: 114
+      Script: {instanceID: 112280}
+    - Class: 114
+      Script: {instanceID: 122218}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -289,21 +310,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1990}
+      Script: {instanceID: 1994}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2400}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 3056}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 5226}
+      Script: {instanceID: 5232}
     - Class: 114
-      Script: {instanceID: 5636}
+      Script: {instanceID: 5642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -377,6 +398,12 @@ ScriptsOnlyBuild:
     assemblyName: DevionGames.UIWidgets.dll
     namespaceName: DevionGames.UIWidgets
     className: RadialMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_02_Despin
   - hash:
       serializedVersion: 2
       Hash: 296fe27bf6a67ad114f808be4eaa08cc
@@ -913,7 +940,7 @@ ScriptsOnlyBuild:
     className: Tooltip
   - hash:
       serializedVersion: 2
-      Hash: afd9466e80a68a0ba5e5f1967c115d3c
+      Hash: d759cce2fc42e300520c5a36dc3283b9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerShipState
@@ -1057,7 +1084,7 @@ ScriptsOnlyBuild:
     className: SmokeParticles
   - hash:
       serializedVersion: 2
-      Hash: 2b7412d557fbbc2eeefeaa2b361ec8fe
+      Hash: 31478dce5831d7387d8bc7870b590786
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MissionManager
@@ -1903,7 +1930,7 @@ ScriptsOnlyBuild:
     className: Water
   - hash:
       serializedVersion: 2
-      Hash: 047c2413aae45583e78dceae3241e0e0
+      Hash: 7be89b670d092c2f10744ffc6866f0e4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShipMovmentManager
@@ -2099,8 +2126,44 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: SimpleActivatorMenu
+  - hash:
+      serializedVersion: 2
+      Hash: ee51a5f1cd31fd0aaac4b4c7df0da465
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Assets.Scripts.Util
+    className: PauseGameOnEnabled
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_03_AtmosphereEnterance
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_05_RemoveHeatShield
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_04_DeployParachute
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_06_DropDescendingUnit
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8fc1b1dce719a60b21133363c8f326
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mission_01_10_CollectSample
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainIntroScreen.unity
   - Assets/Scenes/Level-01-MarsSimulationScene.unity
-  playerPath: D:/S_Work/NASA_Hackanthon/Builds/V-01
+  playerPath: D:/S_Work/NASA_Hackanthon/Builds/v-15

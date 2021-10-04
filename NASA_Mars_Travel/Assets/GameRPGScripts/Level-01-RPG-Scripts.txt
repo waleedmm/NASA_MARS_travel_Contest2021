@@ -11,6 +11,24 @@
 *PlayerName*: Perfect, Prepare yourself to enter the Atmosphere of mars
 *PlayerName*: this will generate too much heat. Your Heat Shield will protect you.
 
+-------- Level 1-3 completion ---------
+*PlayerName*: Now, Remove your Heat Shield
+
+
+-------- Level 1-4 completion ---------
+*PlayerName*: Now, Deploy your parachute to slow down
+
+-------- Level 1-5 completion ---------
+*PlayerName*: well done, commander
+*PlayerName*: now drop the descending unit
+
+-------- Level 1-6 completion ---------
+*PlayerName*: use the Terrain Relative Navigation Computer to avoid hitting mountains
+
+-------- Level 1-10 completion ---------
+*PlayerName*: Congratulations Commander, you have colelcted the required samples 
+
+
 
 -------- --------------- ---------
 So you like the Quick Start, hum?

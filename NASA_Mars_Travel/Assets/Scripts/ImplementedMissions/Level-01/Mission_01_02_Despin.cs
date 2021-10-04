@@ -8,7 +8,7 @@ public class Mission_01_02_Despin : Mission, IComplete
 
 	public PlayerShipState m_ShipPlayer;
 	ShipMovmentManager m_ShipManager;
-
+	//public Mission_01_03_AtmosphereEnterance m_thirdMission;
 	public Vector2Int m_RPG_Init_Lines, m_RPG_Done_lines;
 	void Start()
 	{
@@ -28,6 +28,7 @@ public class Mission_01_02_Despin : Mission, IComplete
 		if (m_RPG_Done_lines.magnitude > 0)
 		{
 			m_UIManager.TalkRPGDialog(m_RPG_Done_lines.x, m_RPG_Done_lines.y);
+			//m_thirdMission.SetupMission();
 		}
 	}
 

@@ -10,6 +10,7 @@ public class MissionManager : MonoBehaviour {
 	public int currentMissionId;
 	public string currentMissionDescription;
 	public List<Mission> missions;
+	public Mission m_CurrentMission = null;
 	public UIManager m_UIManager;
 	//gerenciador de limiters da cena
 	//[SerializeField] LimiterManager limiterManager;
@@ -81,12 +82,16 @@ public class MissionManager : MonoBehaviour {
 		//print (currentMissionId -1 + "ID DA MISSAO");
 		if (!missions[m_LastDoneMissionIndex].isCurrent)
 		{
+			m_CurrentMission = missions[m_LastDoneMissionIndex];
 			currentMissionDescription = missions[m_LastDoneMissionIndex].description;
 
 			missions[m_LastDoneMissionIndex].ActivateMission();
 		}
 		//destrói o limiter ao setar a nova missão
-
+		else
+		{
+			m_CurrentMission = null;
+		}
 	}
 
 
