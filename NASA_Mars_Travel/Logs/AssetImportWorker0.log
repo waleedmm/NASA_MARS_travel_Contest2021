@@ -1,0 +1,1136 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.26f1 (6f076387c01d) revision 7276387'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19045.3208; Version 2009; 64bit' Language: 'en' Physical Memory: 16264 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/3D exploration/Github_Source/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49229
+Successfully changed project path to: D:/Work/3D exploration/Github_Source/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+D:/Work/3D exploration/Github_Source/NASA_MARS_travel_Contest2021/NASA_Mars_Travel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.26f1 (6f076387c01d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/3D exploration/Github_Source/NASA_MARS_travel_Contest2021/NASA_Mars_Travel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD FirePro W5100 (ID=0x6649)
+    Vendor:   ATI
+    VRAM:     4071 MB
+    Driver:   27.20.21026.6
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002942 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3150ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00074] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x0001e] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0002c] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2895ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2610ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1860ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (1675ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.5 MB.
+System memory in use after: 213.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 5.232600 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.155100 ms MarkObjects: 4.444700 ms  DeleteObjects: 0.354700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png
+  artifactKey: Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_2.png using Guid(928e6f60ff559d34b867cfece04ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf68d1b1a0e87a246a1bac40efe5929') in 0.319049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ElementalMeters/Masks/MetallicNatureMask.png
+  artifactKey: Guid(0b017d15339616b4692099ba7eaf6f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementalMeters/Masks/MetallicNatureMask.png using Guid(0b017d15339616b4692099ba7eaf6f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf01b46b6ac72bf3bc1d6510c94ff7d') in 0.072769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/More_Games_BTN.png
+  artifactKey: Guid(f54745db4a6ffda49863a15c463cfb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/More_Games_BTN.png using Guid(f54745db4a6ffda49863a15c463cfb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fda6dd5cfc3e1e93e307c007527ccf') in 0.056372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_Menu/More_Games_BTN.png
+  artifactKey: Guid(4c8e658b3b8882e48a2c0345af6d8adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_Menu/More_Games_BTN.png using Guid(4c8e658b3b8882e48a2c0345af6d8adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406424aa64e20a927292cf3bc682fd6a') in 0.026870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Menu_BTN.png
+  artifactKey: Guid(7b3e8313915c5b042a93ad22a8798147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Shop/Menu_BTN.png using Guid(7b3e8313915c5b042a93ad22a8798147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564319397bed99fd8abfff1340744eda') in 0.064069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/Locked.png
+  artifactKey: Guid(a7e596542bcca6540987d28297588d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/Locked.png using Guid(a7e596542bcca6540987d28297588d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8f54fd9d0ae3e748974f0b5572a01b') in 0.057758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/ElementalMeters/Masks/MetallicWaterMask.png
+  artifactKey: Guid(696887e6634505a4eb4cdf5e0768bc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementalMeters/Masks/MetallicWaterMask.png using Guid(696887e6634505a4eb4cdf5e0768bc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d75c239c3ac78f3daeab91fed6a37c') in 0.097299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/ElementalMeters/Masks/MetallicFireMask.png
+  artifactKey: Guid(91300865e63b525488736f511d6dfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementalMeters/Masks/MetallicFireMask.png using Guid(91300865e63b525488736f511d6dfc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3f078f3e795ad675a6e0095f821e4a') in 0.058429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/Pause_BTN.png
+  artifactKey: Guid(0758cb81fdcddb24fa7b74117a12a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/Pause_BTN.png using Guid(0758cb81fdcddb24fa7b74117a12a3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d936bdc820ded00a83fcecb321da38') in 0.029246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_3.png
+  artifactKey: Guid(1a3427d3593ccf6459a40a9bedc75603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_3.png using Guid(1a3427d3593ccf6459a40a9bedc75603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5241814b16440c3afa3c9cedb9462cd3') in 0.038827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/Location.png
+  artifactKey: Guid(d79edf6777b9b064db337318257d1b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/Location.png using Guid(d79edf6777b9b064db337318257d1b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1f38bd3e9dfe73245569660c81a12c') in 0.035176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh.png
+  artifactKey: Guid(24f90d3fa2df5c84abbf1455cfda472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh.png using Guid(24f90d3fa2df5c84abbf1455cfda472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5aa66b08546120a5cb12d092d49a965') in 0.042779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/More.png
+  artifactKey: Guid(c7c9eb7cb3ec5b841909b0b03d66e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/More.png using Guid(c7c9eb7cb3ec5b841909b0b03d66e02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0da068d8d1746a46288611418a49a6') in 0.051871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/More_Games_BTN.png
+  artifactKey: Guid(a6d4a2cb56e1f12468705b2ed35b616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/More_Games_BTN.png using Guid(a6d4a2cb56e1f12468705b2ed35b616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85e25f5c80f5cdaf2946a57f31cc680') in 0.043739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Menu_BTN.png
+  artifactKey: Guid(e7d9f984aefa64a46a980816c5d8b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Menu_BTN.png using Guid(e7d9f984aefa64a46a980816c5d8b8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c6b9d39d6743fd09ff32a8fbdcc3fe') in 0.026296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Pause_BTN.png
+  artifactKey: Guid(c58c546a9aa4dcf46bc32541cddfbe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_UI/Pause_BTN.png using Guid(c58c546a9aa4dcf46bc32541cddfbe7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc99bb88036363188591d49e07ef1c2') in 0.023090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Pause_BTN.png
+  artifactKey: Guid(90ced31fea6c73f439a04258bbb54986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs_Active/Pause_BTN.png using Guid(90ced31fea6c73f439a04258bbb54986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bfb92d31fd838a199eea042e5bb93c') in 0.024721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ElementalMeters/Masks/MetallicAirMask.png
+  artifactKey: Guid(004f890fc0cd84b42a68f0fd3aeca221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementalMeters/Masks/MetallicAirMask.png using Guid(004f890fc0cd84b42a68f0fd3aeca221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8c19ef63d732168ea902fb5a57321') in 0.104050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_1.png
+  artifactKey: Guid(f81bac982be6ad344a56ab5d40131a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_3_1.png using Guid(f81bac982be6ad344a56ab5d40131a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bc26a3fd2ffd07f182ba797a45dd41') in 0.035175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/icons/mars_planet_space_icon.png
+  artifactKey: Guid(1f2aeeed55eb6c543a36d2a740b6d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/mars_planet_space_icon.png using Guid(1f2aeeed55eb6c543a36d2a740b6d3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a099e8ac59ef7dc8dad040aab8b93c88') in 0.046476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/atlas.png
+  artifactKey: Guid(56d84991286850f428b4e7df0cca7380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/atlas.png using Guid(56d84991286850f428b4e7df0cca7380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f78ba844bc2382fbfe4131a26d6d9d1') in 0.128971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Menu_BTN.png
+  artifactKey: Guid(6dfa6b3157f989a4cbbada18b138f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Rating/Menu_BTN.png using Guid(6dfa6b3157f989a4cbbada18b138f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9de168997ebe0cd2108c375cf9c11b') in 0.026349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@4x.png
+  artifactKey: Guid(953b8abb3b6548c4294b547c2f473be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@4x.png using Guid(953b8abb3b6548c4294b547c2f473be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e9d844c08cdd470a55600ab02f4539') in 0.045171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/Menu_BTN.png
+  artifactKey: Guid(f06f121ea1df2da4f9ded71857c9c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Buttons/BTNs/Menu_BTN.png using Guid(f06f121ea1df2da4f9ded71857c9c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4430a75b64973fee3cd1a97122a4cd0') in 0.028704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/ElementalMeters/Masks/MetallicYellowMask.png
+  artifactKey: Guid(a44c9981b4ad06f4da369cd25a7e0147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementalMeters/Masks/MetallicYellowMask.png using Guid(a44c9981b4ad06f4da369cd25a7e0147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5087af69042a64155cac394dce0fa163') in 0.054512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/Minus.png
+  artifactKey: Guid(a710e9e8ae178e249a937c52eca5ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/Minus.png using Guid(a710e9e8ae178e249a937c52eca5ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c93f48f8d91a2971fcd1dcfb44c9cc') in 0.113813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_2_3.png
+  artifactKey: Guid(a557b3bc28197424a9c4b2ba790c584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Loading_Bar/Loading_Bar_2_3.png using Guid(a557b3bc28197424a9c4b2ba790c584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606a7a74224cdf3d13a47f6db521e8a4') in 0.048137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_Menu/Map_BTN.png
+  artifactKey: Guid(ec71409115949b648b2b2047e06d1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Main_Menu/Map_BTN.png using Guid(ec71409115949b648b2b2047e06d1bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22131ea97320af9c2f369209d23ca89f') in 0.053575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/Message.png
+  artifactKey: Guid(b8d4038d43e3f7744a1743020000e10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/Message.png using Guid(b8d4038d43e3f7744a1743020000e10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1a70894ea0287347503f5abeee26c0') in 0.068241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Devion Games/Flat GUI/Icons/Mark.png
+  artifactKey: Guid(5216e79063450d447b0e08e05d5ddab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Devion Games/Flat GUI/Icons/Mark.png using Guid(5216e79063450d447b0e08e05d5ddab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04e7b1caa20d410a1760506c7e453ce') in 0.033412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@3x.png
+  artifactKey: Guid(2d95cf258837ba44896030e25b9f2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@3x.png using Guid(2d95cf258837ba44896030e25b9f2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c725e80c53e6713e6bfe8890de560a08') in 0.038102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Menu_BTN.png
+  artifactKey: Guid(3452ef579f4e75c4397df0c7f94443ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D assets/UI-Craftpix-SpaceShooter-PNG/Setting/Menu_BTN.png using Guid(3452ef579f4e75c4397df0c7f94443ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254bd79093db89b24ee72d1e28db4bbc') in 0.027779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@2x.png
+  artifactKey: Guid(242f58a86f3ee8e418809e5fc269d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@2x.png using Guid(242f58a86f3ee8e418809e5fc269d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971f59be9210d8355a47be3e5f9565a3') in 0.039034 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004896 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.UIElements.BaseLiveReloadAssetTracker`1[T].StartTrackingAsset (T asset) [0x0003e] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.HandlePanelAttachmentEvents (UnityEngine.UIElements.EventBase evt) [0x000a9] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt) [0x0010e] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.CallbackEventHandler.HandleEvent (UnityEngine.UIElements.EventBase evt) [0x000ae] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatchUtilities.ExecuteDefaultAction (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x00054] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatcher.ProcessEvent (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel) [0x000ba] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.EventDispatcher.Dispatch (UnityEngine.UIElements.EventBase evt, UnityEngine.UIElements.IPanel panel, UnityEngine.UIElements.DispatchMode dispatchMode) [0x00046] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.BaseVisualElementPanel.SendEvent (UnityEngine.UIElements.EventBase e, UnityEngine.UIElements.DispatchMode dispatchMode) [0x0001a] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.HasChangedPanel (UnityEngine.UIElements.BaseVisualElementPanel prevPanel) [0x00074] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.SetPanel (UnityEngine.UIElements.BaseVisualElementPanel p) [0x001b1] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.SetParent (UnityEngine.UIElements.VisualElement value) [0x00038] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Insert (System.Int32 index, UnityEngine.UIElements.VisualElement child) [0x000e4] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement+Hierarchy.Add (UnityEngine.UIElements.VisualElement child) [0x0001b] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEngine.UIElements.VisualElement.Add (UnityEngine.UIElements.VisualElement child) [0x00038] in <5764fa4c1e494ed58b3db57198e4b0f7>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.AddRootElement (UnityEngine.UIElements.VisualElement root) [0x0000c] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.RegisterWindow () [0x000c7] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.UIElements.DefaultEditorWindowBackend.UnityEditor.IEditorWindowBackend.OnRegisterWindow () [0x00001] in <3d35167bc29546a3a7dfbe7ca2443413>:0 
+  at UnityEditor.HostView.RegisterSelectedPane (System.Boolean sendEvents) [0x00035] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.HostView.SetActualViewInternal (UnityEditor.EditorWindow value, System.Boolean sendEvents) [0x0004b] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.SetSelectedPrivate (System.Int32 value, System.Boolean sendEvents) [0x00059] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.AddTab (System.Int32 idx, UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x00018] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.DockArea.AddTab (UnityEditor.EditorWindow pane, System.Boolean sendPaneEvents) [0x0000d] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.CreateNewWindowForEditorWindow (UnityEditor.EditorWindow window, System.Boolean loadPosition, System.Boolean showImmediately, System.Boolean setFocus) [0x0001b] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.Show (System.Boolean immediateDisplay) [0x00011] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.Show () [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindowPrivate (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00057] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow (System.Type t, System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.Boolean utility, System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title, System.Boolean focus) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.EditorWindow.GetWindow[T] (System.String title) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.Config () [0x0001e] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:67 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0002c] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:42 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 67)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.867 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2867ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2584ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (1583ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (118ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2483 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.2 MB.
+System memory in use after: 234.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 5.212500 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.149200 ms MarkObjects: 4.499000 ms  DeleteObjects: 0.273700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004492 seconds.
+Begin MonoManager ReloadAssembly
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2725ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2414ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (1500ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (110ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.9 MB.
+System memory in use after: 232.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3542.
+Total: 6.095000 ms (FindLiveObjects: 0.421900 ms CreateObjectMapping: 0.194900 ms MarkObjects: 5.240100 ms  DeleteObjects: 0.237000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.200304 seconds.
+Begin MonoManager ReloadAssembly
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3666ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (3304ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (502ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (2213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (2118ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (165ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.9 MB.
+System memory in use after: 232.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3545.
+Total: 5.824600 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.180600 ms MarkObjects: 5.046200 ms  DeleteObjects: 0.287900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004503 seconds.
+Begin MonoManager ReloadAssembly
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.533 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3533ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (3199ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (2132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (2049ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (152ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.0 MB.
+System memory in use after: 232.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3548.
+Total: 11.102700 ms (FindLiveObjects: 0.510600 ms CreateObjectMapping: 0.577500 ms MarkObjects: 9.756500 ms  DeleteObjects: 0.256400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004446 seconds.
+Begin MonoManager ReloadAssembly
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityEngine.UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NASA_Mars_Travel_Perseverance
+UnityException: GetAllRegisteredPackages is not allowed to be called from a ScriptableObject constructor (or instance field initializer), call it in OnEnable instead. Called from ScriptableObject 'RPGTalkInitialization'.
+See "Script Serialization" page in the Unity Manual for further details.
+  at (wrapper managed-to-native) UnityEditor.PackageManager.PackageInfo.GetAllRegisteredPackages()
+  at UnityEditor.PackageManagerUtilityInternal.GetAllVisiblePackages (System.Boolean skipHiddenPackages) [0x0000e] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindEverywhere>d__34`1[T].MoveNext () [0x0009a] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase+<FindAllAssets>d__31.MoveNext () [0x00054] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].MoveNext () [0x00029] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Set`1[TElement].UnionWith (System.Collections.Generic.IEnumerable`1[T] other) [0x00018] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].FillSet () [0x0000b] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable+DistinctIterator`1[TSource].ToArray () [0x00000] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at System.Linq.Enumerable.ToArray[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <351e49e2a5bf4fd6beabb458ce2255f3>:0 
+  at UnityEditor.AssetDatabase.FindAssets (UnityEditor.SearchFilter searchFilter) [0x00030] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter, System.String[] searchInFolders) [0x00038] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at UnityEditor.AssetDatabase.FindAssets (System.String filter) [0x00001] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+  at RPGTALK.Helper.RPGTalkInitialization.GetConfigAsset () [0x00000] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:199 
+  at RPGTALK.Helper.RPGTalkInitialization..cctor () [0x0001b] in D:\Work\3D exploration\Github_Source\NASA_MARS_travel_Contest2021\NASA_Mars_Travel\Assets\RPGTALK\Scripts\Editor\RPGTalkInitialization.cs:38 
+Rethrow as TypeInitializationException: The type initializer for 'RPGTALK.Helper.RPGTalkInitialization' threw an exception.
+  at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadAttributes (System.Type[] types) [0x00044] in <fea4138086dc4e42a285e0e1e88527ef>:0 
+
+(Filename: Assets/RPGTALK/Scripts/Editor/RPGTalkInitialization.cs Line: 199)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3566ms)
+		BeginReloadAssembly (305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (3166ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1984ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (1884ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (181ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.9 MB.
+System memory in use after: 232.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3551.
+Total: 10.200100 ms (FindLiveObjects: 1.550400 ms CreateObjectMapping: 0.493700 ms MarkObjects: 7.780200 ms  DeleteObjects: 0.374400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

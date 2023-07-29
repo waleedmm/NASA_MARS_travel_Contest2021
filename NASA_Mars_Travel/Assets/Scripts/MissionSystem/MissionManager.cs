@@ -24,6 +24,8 @@ public class MissionManager : MonoBehaviour {
 
 	private List<MissionItemSlotManager> m_UISlotsManagers = new List<MissionItemSlotManager>();
 	public int m_LastDoneMissionIndex = -1;
+	
+
 	// Use this for initialization
 	void Start () {
 		//a missão sempre começa na numero 1
@@ -93,7 +95,6 @@ public class MissionManager : MonoBehaviour {
 			m_CurrentMission = null;
 		}
 	}
-
 
 //	public bool CheckCurrentMission(int id){
 //		if (currentMissionId == id)

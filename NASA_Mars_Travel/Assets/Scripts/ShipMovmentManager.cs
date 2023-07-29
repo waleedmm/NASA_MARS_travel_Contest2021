@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ShipMovmentManager : MonoBehaviour
 {
+    public float m_GameNormalSpeed = 1; 
     public Camera m_MainCamera;
     private LerpCameraFollow m_lerpCamera;
     private FlyCamera m_flyCamera;
@@ -35,7 +36,7 @@ public class ShipMovmentManager : MonoBehaviour
     public GameObject m_ExplosionParticle;
     public int m_HeatEffectDuration = 1;
     public Mission_01_03_AtmosphereEnterance m_AtmosphereMission3;
-
+    private bool m_IsPaused = false;
     private void Awake()
     {
         _Instance = this;
@@ -122,14 +123,26 @@ public class ShipMovmentManager : MonoBehaviour
             }
         }
     }
+
+    public void OnTogglePause()
+    {
+       
+    }
     public void PauseGame()
     {
-        //Time.timeScale = 0.1f;
-        m_lastKinematic = m_Rigid.isKinematic;
-        m_lastVelocity = m_Rigid.velocity;
+        m_IsPaused = !m_IsPaused;
+        Time.timeScale = (m_IsPaused) ? 0 : m_GameNormalSpeed;
+        if (m_IsPaused)
+        {
+            //Time.timeScale = 0.1f;
+            m_lastKinematic = m_Rigid.isKinematic;
+            m_lastVelocity = m_Rigid.velocity;
 
-        m_Rigid.isKinematic = true;
-        m_Rigid.velocity = Vector3.zero;
+            m_Rigid.isKinematic = true;
+            m_Rigid.velocity = Vector3.zero;
+        }
+        else
+            ResumeGame();
     }
     public void ResumeGame()
     {
@@ -163,6 +176,7 @@ public class ShipMovmentManager : MonoBehaviour
         m_MainCamera = Camera.main;
         m_lerpCamera = m_MainCamera.GetComponent<LerpCameraFollow>();
         m_flyCamera = m_MainCamera.GetComponent<FlyCamera>();
+        //Time.timeScale = m_GameNormalSpeed;
 
         m_StateObject = GetComponentInChildren<PlayerShipState>();
         m_ShipRender = GetComponent<MeshRenderer>();
